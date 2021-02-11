@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script type = 'text/javascript'src="index.js"></script>
+</head>
+<style>
+    .post_container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .add-post {
+        margin:10%;
+        align-items: center;
+        width:20%;
+        color: grey;
+    }
+</style>
+<body>
+    <div class="post_container">
+        <h6>Post something</h6>
+        <input type="text" id = "name">
+        <textarea name="post" id="post" cols="40" rows="10" placeholder="type a post"></textarea>
+        <button class="add-post">POST</button>
+        <ul class="comment_list">
+            
+        </ul>
+    </div>
+</body>
+</html>
